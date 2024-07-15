@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger, TextPlugin)
     //TODO BOX0 
     gsap.to('#BOX0', {
-        rotation: 90,
+        rotation: 360,
         duration: 1,
         x: -450,
         scrollTrigger: {
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     })
     //! BOX1 
     gsap.to('#BOX1', {
-        rotation: 180,
+        rotation: 360,
         duration: 1,
         x: 450,
         scrollTrigger: {
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.to("#BOX2", {
         rotation: 360,
         duration: 1,
-        x: -450,
+        x: -650,
         scrollTrigger: {
             trigger: "#BOX2",
             toggleActions: "restart pause reverse restart",
