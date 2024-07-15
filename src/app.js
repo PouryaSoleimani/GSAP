@@ -8,9 +8,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.to("#BOX2", {
         rotation: 360,
         duration: 5,
+        x: -650,
         scrollTrigger: {
             trigger: "#BOX2",
-            toggleActions: "restart pause reverse pause",
+            toggleActions: "restart pause reverse restart",
             scrub: true,
         }
     })
