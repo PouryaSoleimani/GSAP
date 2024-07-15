@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     })
     gsap.to("#HELLO" , {
         y: 100,
-        x : 100,
+        x : 500,
         duration : 3,
         yoyo : true
     })
