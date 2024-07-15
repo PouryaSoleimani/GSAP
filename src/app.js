@@ -5,27 +5,27 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.to("#HEADER__CIRCLE1", {
         x: -"60%",
         y: "-250%",
-        duration: 3,
+        duration: 2,
     })
     gsap.to("#HEADER__CIRCLE2", {
         x: "-50%",
         y: "-30%",
-        duration: 3,
+        duration: 2,
     })
     gsap.to("#HEADER__CIRCLE3", {
         x: "50%",
-        y: -400,
+        y: "-180%",
         duration: 3,
     })
     gsap.to("#HEADER__CIRCLE4", {
-        x: 500,
+        x: "70%",
         y: "-30%",
-        duration: 3,
+        duration: 1,
     })
     gsap.to("#HEADER__CIRCLE5", {
         x: "-20%",
-        y: -460,
-        duration: 5.5,
+        y: "-200%",
+        duration: 3.5,
     })
     //TODO BOX0 
     gsap.to('#BOX0', {
