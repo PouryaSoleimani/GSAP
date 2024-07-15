@@ -1,13 +1,8 @@
 
 //^ GSAP JAVASCRIPT FILE ================================================================================================================================
 document.addEventListener("DOMContentLoaded", (event) => {
-    gsap.registerPlugin(ScrollTrigger, TextPlugin)
+    gsap.registerPlugin(ScrollTrigger, TextPlugin, ScrollToPlugin)
     gsap.to("#HEADER__CIRCLE1", {
-        x: 800,
-        y: 300,
-        duration: 6.5,
-    })
-    gsap.to("#HEADER__CIRCLE44", {
         x: 800,
         y: 300,
         duration: 6.5,
@@ -17,37 +12,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         y: 300,
         duration: 6.5,
     })
-    gsap.to("#HEADER__CIRCLE23", {
-        x: -800,
-        y: 300,
-        duration: 6.5,
-    })
-    gsap.to("#HEADER__CIRCLE44", {
-        x: -800,
-        y: 300,
-        duration: 6.5,
-    })
-    gsap.to("#HEADER__CIRCLE22", {
-        x: -800,
-        y: 300,
-        duration: 6.5,
-    })
     gsap.to("#HEADER__CIRCLE3", {
-        x: -700,
-        y: -200,
-        duration: 6.5,
-    })
-    gsap.to("#HEADER__CIRCLE12", {
-        x: -700,
-        y: -200,
-        duration: 6.5,
-    })
-    gsap.to("#HEADER__CIRCLE56", {
-        x: -700,
-        y: -200,
-        duration: 6.5,
-    })
-    gsap.to("#HEADER__CIRCLE34", {
         x: -700,
         y: -200,
         duration: 6.5,
@@ -57,25 +22,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
         y: -200,
         duration: 6.5,
     })
-    gsap.to("#HEADER__CIRCLE55", {
-        x: 800,
+    gsap.to("#HEADER__CIRCLE5", {
+        x: -800,
         y: -200,
-        duration: 6.5,
-    })
-    gsap.to("#HEADER__CIRCLE33", {
-        x: 800,
-        y: -200,
-        duration: 6.5,
-    })
-    gsap.to("#HEADER__CIRCLE11", {
-        x: 800,
-        y: -200,
-        duration: 6.5,
-    })
-    gsap.to("#HEADER__CIRCLE45", {
-        x: 800,
-        y: -200,
-        duration: 6.5,
+        duration: 5.5,
     })
     //TODO BOX0 
     gsap.to('#BOX0', {
