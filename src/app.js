@@ -9,8 +9,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         y: 120,
         scrollTrigger: {
             trigger: "#BOX0",
-            start: "top top",
-            end: "left bottom"
+            toggleActions: "restart pause reverse restart"
         }
     })
     //! BOX1 
