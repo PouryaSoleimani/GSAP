@@ -1,6 +1,18 @@
 //^ GSAP JAVASCRIPT FILE ================================================================================================================================
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger, TextPlugin)
+    //TODO BOX0 
+    gsap.to('#BOX0', {
+        rotation: 90,
+        duration: 1,
+        x: 650,
+        y: 120,
+        scrollTrigger: {
+            trigger: "#BOX0",
+            start: "top top",
+            end: "left bottom"
+        }
+    })
     //! BOX1 
     gsap.to('#BOX1', {
         rotation: 180,
