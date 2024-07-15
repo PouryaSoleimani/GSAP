@@ -1,4 +1,4 @@
-//* GSAP JAVASCRIPT FILE
+//^ GSAP JAVASCRIPT FILE ================================================================================================================================
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger, TextPlugin)
     //& BOX
