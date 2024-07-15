@@ -3,35 +3,35 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger, TextPlugin, ScrollToPlugin)
     gsap.to("#HEADER__CIRCLE1", {
-        x: 800,
-        y: 300,
-        duration: 6.5,
+        x: 900,
+        y: 80,
+        duration: 4.5,
     })
     gsap.to("#HEADER__CIRCLE2", {
-        x: -800,
-        y: 300,
-        duration: 6.5,
+        x: -300,
+        y: 60,
+        duration: 4.5,
     })
     gsap.to("#HEADER__CIRCLE3", {
-        x: -700,
-        y: -200,
-        duration: 6.5,
+        x: -400,
+        y: -400,
+        duration: 4.5,
     })
     gsap.to("#HEADER__CIRCLE4", {
-        x: 800,
-        y: -200,
-        duration: 6.5,
+        x: 500,
+        y: -400,
+        duration: 4.5,
     })
     gsap.to("#HEADER__CIRCLE5", {
         x: -800,
-        y: -200,
+        y: -460,
         duration: 5.5,
     })
     //TODO BOX0 
     gsap.to('#BOX0', {
         rotation: 360,
         duration: 1,
-        x: -450,
+        x: -850,
         scrollTrigger: {
             trigger: "#BOX0",
             toggleActions: "restart pause reverse restart",
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.to('#BOX1', {
         rotation: 360,
         duration: 1,
-        x: 450,
+        x: 950,
         scrollTrigger: {
             trigger: "#BOX1",
             toggleActions: "restart pause reverse restart",
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.to("#BOX2", {
         rotation: 360,
         duration: 1,
-        x: -650,
+        x: -940,
         scrollTrigger: {
             trigger: "#BOX2",
             toggleActions: "restart pause reverse restart",
