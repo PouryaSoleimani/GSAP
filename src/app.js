@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger)
     gsap.to("#box", {
         rotation: 360,
-        duration: 2,
+        duration: 1,
         scrollTrigger: {
             trigger: "#box",
             markers: true,
