@@ -2,6 +2,8 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger, TextPlugin)
     //! BOX1 
+    gsap.to('#BOX1', {
+    })
     //^ BOX2
     gsap.to("#BOX2", {
         rotation: 360,
