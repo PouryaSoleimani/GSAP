@@ -3,27 +3,27 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger, TextPlugin, ScrollToPlugin)
     gsap.to("#HEADER__CIRCLE1", {
-        x: 900,
-        y: 80,
+        x: -"60%",
+        y: "-250%",
         duration: 3,
     })
     gsap.to("#HEADER__CIRCLE2", {
-        x: -300,
-        y: 60,
+        x: "-50%",
+        y: "-30%",
         duration: 3,
     })
     gsap.to("#HEADER__CIRCLE3", {
-        x: -400,
+        x: "50%",
         y: -400,
         duration: 3,
     })
     gsap.to("#HEADER__CIRCLE4", {
         x: 500,
-        y: -400,
+        y: "-30%",
         duration: 3,
     })
     gsap.to("#HEADER__CIRCLE5", {
-        x: -800,
+        x: "-20%",
         y: -460,
         duration: 5.5,
     })
