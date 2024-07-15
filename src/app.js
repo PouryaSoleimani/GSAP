@@ -1,7 +1,13 @@
+
 //^ GSAP JAVASCRIPT FILE ================================================================================================================================
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger, TextPlugin)
     gsap.to("#HEADER__CIRCLE1", {
+        x: 800,
+        y: 300,
+        duration: 6.5,
+    })
+    gsap.to("#HEADER__CIRCLE44", {
         x: 800,
         y: 300,
         duration: 6.5,
@@ -11,7 +17,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
         y: 300,
         duration: 6.5,
     })
+    gsap.to("#HEADER__CIRCLE23", {
+        x: -800,
+        y: 300,
+        duration: 6.5,
+    })
     gsap.to("#HEADER__CIRCLE44", {
+        x: -800,
+        y: 300,
+        duration: 6.5,
+    })
+    gsap.to("#HEADER__CIRCLE22", {
         x: -800,
         y: 300,
         duration: 6.5,
@@ -21,7 +37,42 @@ document.addEventListener("DOMContentLoaded", (event) => {
         y: -200,
         duration: 6.5,
     })
+    gsap.to("#HEADER__CIRCLE12", {
+        x: -700,
+        y: -200,
+        duration: 6.5,
+    })
+    gsap.to("#HEADER__CIRCLE56", {
+        x: -700,
+        y: -200,
+        duration: 6.5,
+    })
+    gsap.to("#HEADER__CIRCLE34", {
+        x: -700,
+        y: -200,
+        duration: 6.5,
+    })
     gsap.to("#HEADER__CIRCLE4", {
+        x: 800,
+        y: -200,
+        duration: 6.5,
+    })
+    gsap.to("#HEADER__CIRCLE55", {
+        x: 800,
+        y: -200,
+        duration: 6.5,
+    })
+    gsap.to("#HEADER__CIRCLE33", {
+        x: 800,
+        y: -200,
+        duration: 6.5,
+    })
+    gsap.to("#HEADER__CIRCLE11", {
+        x: 800,
+        y: -200,
+        duration: 6.5,
+    })
+    gsap.to("#HEADER__CIRCLE45", {
         x: 800,
         y: -200,
         duration: 6.5,
