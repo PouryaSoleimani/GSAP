@@ -1,12 +1,12 @@
 //^ GSAP JAVASCRIPT FILE ================================================================================================================================
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger, TextPlugin)
-    //& BOX
-    gsap.to("#box", {
+    //^ BOX
+    gsap.to("#BOX", {
         rotation: 360,
         duration: 5,
         scrollTrigger: {
-            trigger: "#box",
+            trigger: "#BOX",
             toggleActions: "restart pause reverse pause",
             scrub: true,
         }
@@ -18,4 +18,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
         ease: "none",
         toggleActions: "restart pause reverse pause"
     })
+
+
 });
