@@ -1,6 +1,6 @@
 //* GSAP JAVASCRIPT FILE
 document.addEventListener("DOMContentLoaded", (event) => {
-    gsap.registerPlugin(ScrollTrigger)
+    gsap.registerPlugin(ScrollTrigger , TextPlugin)
     gsap.to("#box", {
         rotation: 360,
         duration: 1,
@@ -9,5 +9,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
             markers: true,
             scrub: true,
         }
+    })
+    gsap.to("#HELLO" , {
+        y: 100,
+        x : 100,
+        duration : 3,
+        yoyo : true
     })
 });
