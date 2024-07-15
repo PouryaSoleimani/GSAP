@@ -5,22 +5,22 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.to("#HEADER__CIRCLE1", {
         x: 900,
         y: 80,
-        duration: 4.5,
+        duration: 3,
     })
     gsap.to("#HEADER__CIRCLE2", {
         x: -300,
         y: 60,
-        duration: 4.5,
+        duration: 3,
     })
     gsap.to("#HEADER__CIRCLE3", {
         x: -400,
         y: -400,
-        duration: 4.5,
+        duration: 3,
     })
     gsap.to("#HEADER__CIRCLE4", {
         x: 500,
         y: -400,
-        duration: 4.5,
+        duration: 3,
     })
     gsap.to("#HEADER__CIRCLE5", {
         x: -800,
