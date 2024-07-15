@@ -1,5 +1,13 @@
 //* GSAP JAVASCRIPT FILE
-const rotate = gsap.to("#box", {
-    rotation: 360,
-    duration: 2
-})
+document.addEventListener("DOMContentLoaded", (event) => {
+    gsap.registerPlugin(ScrollTrigger)
+    gsap.to("#box", {
+        rotation: 360,
+        duration: 2,
+        scrollTrigger: {
+            trigger: "#box",
+            markers: true,
+            scrub: true,
+        }
+    })
+});
