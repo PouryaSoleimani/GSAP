@@ -1,7 +1,31 @@
 //^ GSAP JAVASCRIPT FILE ================================================================================================================================
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger, TextPlugin)
-    
+    gsap.to("#HEADER__CIRCLE1", {
+        x: 800,
+        y: 300,
+        duration: 6.5,
+    })
+    gsap.to("#HEADER__CIRCLE2", {
+        x: -800,
+        y: 300,
+        duration: 6.5,
+    })
+    gsap.to("#HEADER__CIRCLE44", {
+        x: -800,
+        y: 300,
+        duration: 6.5,
+    })
+    gsap.to("#HEADER__CIRCLE3", {
+        x: -700,
+        y: -200,
+        duration: 6.5,
+    })
+    gsap.to("#HEADER__CIRCLE4", {
+        x: 800,
+        y: -200,
+        duration: 6.5,
+    })
     //TODO BOX0 
     gsap.to('#BOX0', {
         rotation: 360,
