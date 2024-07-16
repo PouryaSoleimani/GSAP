@@ -100,15 +100,34 @@ document.addEventListener("DOMContentLoaded", (event) => {
     //     border: "3px solid white",
     //     ease: "back" // elastic , bounce 
     // })
-    //? SETTING ANIMATION TO MULTIPLE ELEMENTS
+    //? SETTING ANIMATION TO MULTIPLE ELEMENTS AT THE SAMETIME
     gsap.set("#LOGO,#LOGO2", {
         transformOrigin: "50% 50%",
-        duration : 2,
+        duration: 2,
     })
-    gsap.to("#LOGO , #LOGO2" , {
-        duration : 2,
-        x : 200,
-        rotation : 360,
-        ease : "bounce"
+    // gsap.to("#LOGO , #LOGO2", { // THE {GSAP.TO} METHOD STARTS FROM THE DEFAULT FORM  AND ENDS TO OUR CUSTOMIZATION
+    //     duration: 2,
+    //     x: 250,
+    //     rotation: 360,
+    //     ease: "bounce"
+    // })
+    //* GSAP.FROM
+    gsap.from("#LOGO", {
+        duration: 3,
+        x: "200vw",
+        rotation: 360,
+        ease: "back"
     })
+    gsap.from("#LOGO2", {
+        duration: 3,
+        x: "-200vw",
+        rotation: 360,
+        ease: "back"
+    })
+    // gsap.from("#LOGO , #LOGO2", { // THE {GSAP.FROM} METHOD STARTS FROM OUR CUSTOMIZATION AND ENDS TO THE DEFAULT FORM
+    //     duration: 2,
+    //     x: 250,
+    //     rotation: 360,
+    //     ease: "bounce"
+    // })
 })
