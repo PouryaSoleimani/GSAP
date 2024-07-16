@@ -81,8 +81,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
         ease: "none",
         toggleActions: "restart pause reverse restart"
     })
-    const state = Flip.getState("#TEXT");
-
-    switchItUp();
-    Flip.from(state, {duration: 2, ease: "power1.inOut"});
+  
 });
