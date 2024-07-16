@@ -132,8 +132,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // })
     gsap.from(".circle", {
         duration: 1,
-        y: "20vh",
-        stagger: .1,
+        y: "40vh",
+        stagger: .1, // STAGGER METHOD IS USEFUL WHEN USING AN ANIMATION FOR MULTIPLE ELEMENTS , THIS ELEMENT ADD DELAY BETWEEN ELEMENTS
         ease: "back"
     })
 })
