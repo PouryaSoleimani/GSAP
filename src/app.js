@@ -88,6 +88,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         x : "350%",
         backgroundColor : "#4b4a4a" , 
         borderRadius : "20px",
-        border : "3px solid white"
+        border : "3px solid white",
+        ease : "back" // elastic , bounce 
     })
 });
