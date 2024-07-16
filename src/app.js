@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // })
     gsap.from(".circle", {
         duration: 1,
-        y: () => Math.random() * 400 - 200,
+        y: "20vh",
         stagger: .1,
         ease: "back"
     })
