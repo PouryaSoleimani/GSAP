@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("PAUSE_BUTTON").onclick = pauseHandler
 
     // *GSAP.TIMELINE
-    var tl = gsap.timeline()
+    var tl = gsap.timeline() //USING TIMELINE CAUSES OUR ELEMENT TO PERFORM ANIMATIONS AFTER EACHOTHER AND NOT AT THE SAMETIME
 
     tl.from(".circletl", { duration: 1, x: "-200vw", ease: "back", })
     tl.from(".squaretl", { duration: 1, x: "200vw", ease: "back" })
