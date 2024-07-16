@@ -136,10 +136,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
         stagger: .1, // STAGGER METHOD IS USEFUL WHEN USING AN ANIMATION FOR MULTIPLE ELEMENTS , THIS ELEMENT ADD DELAY BETWEEN ELEMENTS
         ease: "back"
     })
-    gsap.from(".square", {
+    const tween = gsap.from(".square", { // GIVING A GSAP METHOD A NAME {TWEEN} , SO WE CAN PLAY AND PAUSE AND ... WITH BUTTONS
         duration: 2,
         x: "200vw",
         stagger: .4,
         ease: "expo.inOut"
     })
+    function playHandler() { tween.play() }
+    function pauseHandler() { tween.pause() }
+    document.getElementById("PLAY_BUTTON").onclick = playHandler
+    document.getElementById("PAUSE_BUTTON").onclick = pauseHandler
+    
 })
