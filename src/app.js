@@ -81,6 +81,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
         ease: "none",
         toggleActions: "restart pause reverse restart"
     })
-    const TEXT = document.getElementById("#TEXT")
-    const STATE = Flip.getState(TEXT)
 });
