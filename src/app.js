@@ -81,4 +81,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
         ease: "none",
         toggleActions: "restart pause reverse restart"
     })
+
+    // ^ LOGO
+    gsap.to("#LOGO" , {
+        duration : 2 ,
+        x : "350%",
+        backgroundColor : "#4b4a4a" , 
+        borderRadius : "20px",
+        border : "3px solid white"
+    })
 });
