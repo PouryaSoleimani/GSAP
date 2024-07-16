@@ -82,8 +82,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         toggleActions: "restart pause reverse restart"
     })
 
-    // ^ LOGOS
-    //? SETTING ANIMATION TO ONE ELEMENT ( TRANSFORM X and Y )
+    // ^ LOGOS =================================================================================================================================
+    //? SETTING ANIMATION TO ONE ELEMENT ( TRANSFORM X and Y ) || GSAP.TO & GSAP.FROM
     // gsap.to("#LOGO", {
     //     duration: 2,
     //     x: "350%",
@@ -153,9 +153,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
     tl.from(".circletl", { duration: 1, x: "-200vw", ease: "back", })
     tl.from(".squaretl", { duration: 1, x: "200vw", ease: "back" })
 
-
-    // ^GSAP.MOTION__PATH__HELPER
-    const svg = document.getElementById("svg")
-    MotionPathHelper.create(svg)
     
 })
