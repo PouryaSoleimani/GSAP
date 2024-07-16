@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     //& TEXT
     gsap.to("#NEWTEXT", {
         duration: 3,
-        text: "WELCOME TO GSAP EVERYBODY !!!!",
+        text: "WELCOME TO GSAP",
         ease: "none",
         toggleActions: "restart pause reverse restart"
     })
