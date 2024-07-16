@@ -41,38 +41,38 @@ document.addEventListener("DOMContentLoaded", (event) => {
     })
     //^BOXES
     //BOX__0
-    // gsap.to('#BOX0', {
-    //     rotation: 360,
-    //     duration: 3,
-    //     x: -1200,
-    //     scrollTrigger: {
-    //         trigger: "#BOX0",
-    //         toggleActions: "restart pause reverse restart",
-    //         scrub: true
-    //     }
-    // })
+    gsap.to('#BOX0', {
+        rotation: 60,
+        duration: 1,
+        x: "-210%",
+        scrollTrigger: {
+            trigger: "#BOX0",
+            toggleActions: "restart pause reverse restart",
+            scrub: false
+        }
+    })
     //BOX__1
-    // gsap.to('#BOX1', {
-    //     rotation: 360,
-    //     duration: 1,
-    //     x: 1220,
-    //     scrollTrigger: {
-    //         trigger: "#BOX1",
-    //         toggleActions: "restart pause reverse restart",
-    //         scrub: true
-    //     }
-    // })
+    gsap.to('#BOX1', {
+        rotation: 180,
+        duration: 1,
+        x: "200%",
+        scrollTrigger: {
+            trigger: "#BOX1",
+            toggleActions: "restart pause reverse restart",
+            scrub: false
+        }
+    })
     //BOX__2
-    // gsap.to("#BOX2", {
-    //     rotation: 360,
-    //     duration: 1,
-    //     x: -1850,
-    //     scrollTrigger: {
-    //         trigger: "#BOX2",
-    //         toggleActions: "restart pause reverse restart",
-    //         scrub: true
-    //     }
-    // })
+    gsap.to("#BOX2", {
+        rotation: 120,
+        duration: 1,
+        x: "-240%",
+        scrollTrigger: {
+            trigger: "#BOX2",
+            toggleActions: "restart pause reverse restart",
+            scrub: false
+        }
+    })
     //& TEXT
     gsap.to("#NEWTEXT", {
         duration: 3,
