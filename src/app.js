@@ -136,5 +136,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
         stagger: .1, // STAGGER METHOD IS USEFUL WHEN USING AN ANIMATION FOR MULTIPLE ELEMENTS , THIS ELEMENT ADD DELAY BETWEEN ELEMENTS
         ease: "back"
     })
-
+    gsap.from(".square", {
+        duration: 2,
+        x: "200vw",
+        stagger: .4,
+        ease: "expo.inOut"
+    })
 })
