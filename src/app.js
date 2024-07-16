@@ -157,4 +157,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // ^GSAP.MOTION__PATH__HELPER
     const svg = document.getElementById("svg")
     MotionPathHelper.create(svg)
+    
 })
