@@ -1,7 +1,7 @@
 
 //^ GSAP JAVASCRIPT FILE ================================================================================================================================
 document.addEventListener("DOMContentLoaded", (event) => {
-    gsap.registerPlugin(ScrollTrigger, TextPlugin, ScrollToPlugin, Flip , MotionPathHelper)
+    gsap.registerPlugin(ScrollTrigger, TextPlugin, ScrollToPlugin, Flip, MotionPathHelper)
 
     //^ SQUARES
     gsap.to("#SQUARE__1", {
@@ -156,5 +156,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     // ^GSAP.MOTION__PATH__HELPER
     const svg = document.getElementById("svg")
-    MotionPathHelper.create(svg);
+    MotionPathHelper.create(svg)
 })
