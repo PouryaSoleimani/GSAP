@@ -1,7 +1,7 @@
 
 //^ GSAP JAVASCRIPT FILE ================================================================================================================================
 document.addEventListener("DOMContentLoaded", (event) => {
-    gsap.registerPlugin(ScrollTrigger, TextPlugin, ScrollToPlugin, Flip)
+    gsap.registerPlugin(ScrollTrigger, TextPlugin, ScrollToPlugin, Flip , MotionPathHelper)
 
     //^ SQUARES
     gsap.to("#SQUARE__1", {
@@ -148,9 +148,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("PAUSE_BUTTON").onclick = pauseHandler
 
     // *GSAP.TIMELINE
-    var tl = gsap.timeline() //USING TIMELINE CAUSES OUR ELEMENT TO PERFORM ANIMATIONS AFTER EACHOTHER AND NOT AT THE SAMETIME
+    var tl = gsap.timeline({ yoyo: true }) //USING TIMELINE CAUSES OUR ELEMENT TO PERFORM ANIMATIONS AFTER EACHOTHER AND NOT AT THE SAMETIME
 
     tl.from(".circletl", { duration: 1, x: "-200vw", ease: "back", })
     tl.from(".squaretl", { duration: 1, x: "200vw", ease: "back" })
 
+
+    // ^GSAP.MOTION__PATH__HELPER
+    const svg = document.getElementById("svg")
+    MotionPathHelper.create(svg);
 })
