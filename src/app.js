@@ -130,4 +130,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     //     rotation: 360,
     //     ease: "bounce"
     // })
+    gsap.from(".circle" , {
+        duration : 1 ,
+        y : "150%",
+        stagger : .1 , 
+        ease : "back"
+    })
 })
