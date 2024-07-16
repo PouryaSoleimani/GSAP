@@ -83,5 +83,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
     })
     const TEXT = document.getElementById("#TEXT")
     const STATE = Flip.getState(TEXT)
-
 });
