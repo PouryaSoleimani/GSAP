@@ -82,7 +82,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         toggleActions: "restart pause reverse restart"
     })
 
-    // ^ LOGO
+    // ^ LOGOS
+    //? SETTING ANIMATION TO ONE ELEMENT ( TRANSFORM X and Y )
     // gsap.to("#LOGO", {
     //     duration: 2,
     //     x: "350%",
@@ -99,5 +100,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
     //     border: "3px solid white",
     //     ease: "back" // elastic , bounce 
     // })
-    gsap.set("#LOGO , #LOGO2" , {transformOrigin : "50% 50%"})
+    //? SETTING ANIMATION TO MULTIPLE ELEMENTS
+    gsap.set("#LOGO,#LOGO2", {
+        transformOrigin: "50% 50%",
+        duration : 2,
+    })
+    gsap.to("#LOGO , #LOGO2" , {
+        duration : 2,
+        x : 200,
+        rotation : 360,
+        ease : "bounce"
+    })
 })
