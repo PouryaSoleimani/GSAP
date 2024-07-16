@@ -153,5 +153,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
     tl.from(".circletl", { duration: 1, x: "-200vw", ease: "back", })
     tl.from(".squaretl", { duration: 1, x: "200vw", ease: "back" })
 
-    
 })
