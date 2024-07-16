@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         duration: 3,
         x: "200vw",
         rotation: 360,
-        ease: "back"
+        ease: "back" 
     })
     gsap.from("#LOGO2", {
         duration: 3,
