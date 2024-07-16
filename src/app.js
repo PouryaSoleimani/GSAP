@@ -39,17 +39,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
         duration: 1.5,
         rotation : 30
     })
-    gsap.to("#SQUARE__7", {
-        x: "60%",
-        y: "-10%",
-        duration: 1.5,
-        rotation : 140
-    })
     //^BOXES
     //BOX__0
     gsap.to('#BOX0', {
         rotation: 360,
-        duration: 1,
+        duration: 3,
         x: -1200,
         scrollTrigger: {
             trigger: "#BOX0",
