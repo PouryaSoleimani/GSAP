@@ -2,7 +2,7 @@
 //^ GSAP JAVASCRIPT FILE ================================================================================================================================
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger, TextPlugin, ScrollToPlugin, Flip)
-    
+
     //^ SQUARES
     gsap.to("#SQUARE__1", {
         x: "10%",
@@ -81,6 +81,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         ease: "none",
         toggleActions: "restart pause reverse restart"
     })
+    const state = Flip.getState("#TEXT");
 
-
+    switchItUp();
+    Flip.from(state, {duration: 2, ease: "power1.inOut"});
 });
