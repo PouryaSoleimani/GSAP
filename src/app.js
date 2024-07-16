@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         duration: 3,
         x: "200vw",
         rotation: 360,
-        ease: "back" 
+        ease: "back"
     })
     gsap.from("#LOGO2", {
         duration: 3,
@@ -130,10 +130,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     //     rotation: 360,
     //     ease: "bounce"
     // })
-    gsap.from(".circle" , {
-        duration : 1 ,
-        y : "150%",
-        stagger : .1 , 
-        ease : "back"
+    gsap.from(".circle", {
+        duration: 1,
+        y: () => Math.random() * 400 - 200,
+        stagger: .1,
+        ease: "back"
     })
 })
