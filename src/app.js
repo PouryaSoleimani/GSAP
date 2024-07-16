@@ -91,4 +91,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
         border: "3px solid white",
         ease: "back" // elastic , bounce 
     })
+    gsap.to("#LOGO2", {
+        duration: 2,
+        x: "-350%",
+        backgroundColor: "#4b4a4a",
+        borderRadius: "20px",
+        border: "3px solid white",
+        ease: "back" // elastic , bounce 
+    })
 });
