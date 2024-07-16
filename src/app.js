@@ -139,12 +139,18 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const tween = gsap.from(".square", { // GIVING A GSAP METHOD A NAME {TWEEN} , SO WE CAN PLAY AND PAUSE AND ... WITH BUTTONS
         duration: 2,
         x: "200vw",
-        stagger: .4,
+        stagger: .4, //USE WHEN WE HAVE AN ANIMATION ON MULTIPLE ELEMENTS
         ease: "expo.inOut"
     })
     function playHandler() { tween.play() }
     function pauseHandler() { tween.pause() }
     document.getElementById("PLAY_BUTTON").onclick = playHandler
     document.getElementById("PAUSE_BUTTON").onclick = pauseHandler
-    
+
+    // *GSAP.TIMELINE
+    var tl = gsap.timeline()
+
+    tl.from(".circletl", { duration: 1, x: "-200vw", ease: "back", })
+    tl.from(".squaretl", { duration: 1, x: "200vw", ease: "back" })
+
 })
