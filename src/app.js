@@ -1,7 +1,6 @@
-
 //^ GSAP JAVASCRIPT FILE ================================================================================================================================
 document.addEventListener("DOMContentLoaded", (event) => {
-    gsap.registerPlugin(ScrollTrigger, TextPlugin, ScrollToPlugin, Flip, MotionPathHelper)
+    gsap.registerPlugin(ScrollTrigger, TextPlugin, ScrollToPlugin)
 
     //^ SQUARES
     gsap.to("#SQUARE__1", {
