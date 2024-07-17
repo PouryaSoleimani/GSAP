@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         scrollTrigger: {
             trigger: "#BOX0",
             toggleActions: "restart pause reverse restart",
-            scrub: false
+            scrub: true
         }
     })
     //BOX__1
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         scrollTrigger: {
             trigger: "#BOX1",
             toggleActions: "restart pause reverse restart",
-            scrub: false
+            scrub: true
         }
     })
     //BOX__2
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         scrollTrigger: {
             trigger: "#BOX2",
             toggleActions: "restart pause reverse restart",
-            scrub: false
+            scrub: true
         }
     })
     //& TEXT
