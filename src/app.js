@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     })
     //^BOXES
     //BOX__0
-    gsap.to('#BOX0', {
+    gsap.from('#BOX0', {
         rotation: 60,
         duration: 1,
         x: "-210%",
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }
     })
     //BOX__1
-    gsap.to('#BOX1', {
+    gsap.from('#BOX1', {
         rotation: 180,
         duration: 1,
         x: "200%",
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }
     })
     //BOX__2
-    gsap.to("#BOX2", {
+    gsap.from("#BOX2", {
         rotation: 120,
         duration: 1,
         x: "-240%",
