@@ -20,26 +20,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.to("#NEWTEXT", { duration: 3, text: "WELCOME TO GSAP", ease: "none", toggleActions: "restart pause reverse restart" })
 
     // ^ LOGOS =================================================================================================================================
-    //? SETTING ANIMATION TO ONE ELEMENT ( TRANSFORM X and Y ) || GSAP.TO & GSAP.FROM
-    // gsap.to("#LOGO", {
-    //     duration: 2,
-    //     x: "350%",
-    //     backgroundColor: "#4b4a4a",
-    //     borderRadius: "20px",
-    //     border: "3px solid white",
-    //     ease: "back" // elastic , bounce 
-    // })
-    //? SETTING ANIMATION TO MULTIPLE ELEMENTS AT THE SAMETIME
-    gsap.set("#LOGO,#LOGO2", {
-        transformOrigin: "50% 50%",
-        duration: 2,
-    })
-    // gsap.to("#LOGO , #LOGO2", { // THE {GSAP.TO} METHOD STARTS FROM THE DEFAULT FORM  AND ENDS TO OUR CUSTOMIZATION
-    //     duration: 2,
-    //     x: 250,
-    //     rotation: 360,
-    //     ease: "bounce"
-    // })
+    //~ SETTING ANIMATION TO ONE ELEMENT ( TRANSFORM X and Y ) || GSAP.TO & GSAP.FROM
+    // gsap.to("#LOGO", { duration: 2, x: "350%", backgroundColor: "#4b4a4a", borderRadius: "20px", border: "3px solid white", ease: "back" })
+    //~ SETTING ANIMATION TO MULTIPLE ELEMENTS AT THE SAMETIME
+    gsap.set("#LOGO,#LOGO2", { transformOrigin: "50% 50%", duration: 2, })
+    gsap.to("#LOGO , #LOGO2", { x: 250, rotation: 360, ease: "bounce" })
     //* GSAP.FROM
     gsap.from("#LOGO", {
         duration: 3,
