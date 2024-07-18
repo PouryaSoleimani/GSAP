@@ -23,27 +23,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
     //~ SETTING ANIMATION TO ONE ELEMENT ( TRANSFORM X and Y ) || GSAP.TO & GSAP.FROM
     // gsap.to("#LOGO", { duration: 2, x: "350%", backgroundColor: "#4b4a4a", borderRadius: "20px", border: "3px solid white", ease: "back" })
     //~ SETTING ANIMATION TO MULTIPLE ELEMENTS AT THE SAMETIME
-    gsap.set("#LOGO,#LOGO2", { transformOrigin: "50% 50%", duration: 2, })
-    gsap.to("#LOGO , #LOGO2", { x: 250, rotation: 360, ease: "bounce" })
+    // gsap.set("#LOGO,#LOGO2", { transformOrigin: "50% 50%", duration: 2, })
+    // gsap.to("#LOGO , #LOGO2", { x: 250, rotation: 360, ease: "bounce" })
     //* GSAP.FROM
-    gsap.from("#LOGO", {
-        duration: 3,
-        x: "200vw",
-        rotation: 360,
-        ease: "back"
-    })
-    gsap.from("#LOGO2", {
-        duration: 3,
-        x: "-200vw",
-        rotation: 360,
-        ease: "back"
-    })
-    // gsap.from("#LOGO , #LOGO2", { // THE {GSAP.FROM} METHOD STARTS FROM OUR CUSTOMIZATION AND ENDS TO THE DEFAULT FORM
-    //     duration: 2,
-    //     x: 250,
-    //     rotation: 360,
-    //     ease: "bounce"
-    // })
+    gsap.from("#LOGO", { duration: 3, x: "200vw", rotation: 360, ease: "back" })
+    gsap.from("#LOGO2", { duration: 3, x: "-200vw", rotation: 360, ease: "back" })
+    // gsap.from("#LOGO , #LOGO2", { duration: 2, x: 250, rotation: 360, ease: "bounce" })
     gsap.from(".circle", {
         duration: 1,
         y: "40vh",
@@ -56,6 +41,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         stagger: .4, //USE WHEN WE HAVE AN ANIMATION ON MULTIPLE ELEMENTS
         ease: "expo.inOut"
     })
+
     function playHandler() { tween.play() }
     function pauseHandler() { tween.pause() }
     document.getElementById("PLAY_BUTTON").onclick = playHandler
