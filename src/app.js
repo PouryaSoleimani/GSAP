@@ -64,10 +64,10 @@ gsap.to("#box1", {
     ease: "power2.Out"
 })
 
-gsap.to(".newText", {
-    duration: 2,
-    delay: 1,
-    color: "cornflowerblue",
-    x: 1700,
-    stagger: 1
+gsap.from(".newText", {
+    duration: 1,
+    delay: .5,
+    y: 50,
+    opacity: .5,
+    stagger: .5,
 })
