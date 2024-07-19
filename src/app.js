@@ -57,11 +57,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
 gsap.to("#box1", {
     duration: 3.5,
     backgroundColor: "#FABB14",
-    borderRadius: "100px",
     x: 1770,
-    opacity: .5,
     delay: 1,
-    ease: "power2.Out"
+    ease: "none",
+    repeat: -1,
+    yoyo: true
 })
 
 gsap.from(".newText", {
