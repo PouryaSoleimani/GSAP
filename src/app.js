@@ -55,13 +55,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 //^ NEW TUTORIAL
 gsap.to("#box1", {
-    duration: 3.5,
+    duration: 1.5,
     backgroundColor: "#FABB14",
     x: 1770,
     delay: 1,
     ease: "none",
-    repeat: -1,
-    yoyo: true
+    repeat: -1, // -1 MAKES THE ELEMENT TO PERFORM ANIMATION INFINITELY
+    yoyo: true // GOING BACK AND FORWARD AND REPEAT THE ANIMATION BACKWARDLY
 })
 
 gsap.from(".newText", {
@@ -70,4 +70,4 @@ gsap.from(".newText", {
     y: 50,
     opacity: .5,
     stagger: .3,
-})
+}) 
