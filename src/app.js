@@ -52,6 +52,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     tl.from(".circletl", { duration: 1, x: "-200vw", ease: "back", })
     tl.from(".squaretl", { duration: 1, x: "200vw", ease: "back" })
 })
-gsap.to("#box" , {
-    
+
+//^ NEW TUTORIAL
+gsap.to("#box", {
+    duration: 3,
+    backgroundColor: "#FABB14",
+    border: "10px solid white"
 })
