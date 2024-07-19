@@ -59,12 +59,15 @@ gsap.to("#box1", {
     backgroundColor: "#FABB14",
     borderRadius: "100px",
     x: 1770,
-    opacity : .5 ,
+    opacity: .5,
     delay: 1,
     ease: "power2.Out"
 })
 
-gsap.to('h1' , {
+gsap.to(".newText", {
     duration: 2,
-    x:250
+    delay: 1,
+    color: "cornflowerblue",
+    x: 1700,
+    stagger: 1
 })
