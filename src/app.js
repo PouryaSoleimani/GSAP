@@ -63,3 +63,8 @@ gsap.to("#box1", {
     delay: 1,
     ease: "power2.Out"
 })
+
+gsap.to('h1' , {
+    duration: 2,
+    x:250
+})

@@ -18,3 +18,10 @@
     height: 300px;
     background-color: crimson;
 }
+
+h1 {
+    color: white;
+    font-size: 6rem;
+    font-weight: 900;
+    letter-spacing: -10px;
+}
