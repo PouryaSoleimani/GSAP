@@ -69,5 +69,5 @@ gsap.from(".newText", {
     delay: .5,
     y: 50,
     opacity: .5,
-    stagger: .5,
+    stagger: .3,
 })
