@@ -57,5 +57,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 gsap.to("#box", {
     duration: 3,
     backgroundColor: "#FABB14",
-    border: "10px solid white"
+    border: "10px solid white",
+    x: 500,
 })
