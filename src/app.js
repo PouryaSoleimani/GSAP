@@ -54,9 +54,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
 })
 
 //^ NEW TUTORIAL
-gsap.to("#box", {
-    duration: 3,
+gsap.to("#box1", {
+    duration: 3.5,
     backgroundColor: "#FABB14",
     border: "10px solid white",
-    x: 500,
+    x: 1770,
+    delay : 1 , 
+    ease : "power2.Out"
 })
