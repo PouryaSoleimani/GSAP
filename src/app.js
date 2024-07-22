@@ -96,3 +96,5 @@ tl.to("#T3", {
     ease: "power1.inOut",
     backgroundColor: "#62ff24"
 })
+
+// ANOTHER TIMELINE EXAMPLE
