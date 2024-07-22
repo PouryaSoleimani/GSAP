@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     tl.from(".squaretl", { duration: 1, x: "200vw", ease: "back" })
 })
 
-//* NEW TUTORIAL
+//* NEW TUTORIAL =======================================================================================================================================================================    
 gsap.to("#box1", {
     duration: 1.5,
     backgroundColor: "#FABB14",
