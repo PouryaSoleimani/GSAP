@@ -101,13 +101,13 @@ tl.to("#T3", {
 let TL = gsap.timeline()
 
 TL.from("#nav", {
-    duration: 1,
-    y: -20,
-    opacity: "100%",
+    duration: .5,
+    y: -30,
+    opacity: 0,
 })
 TL.from(".navitem", {
-    duration: 1,
-    y: -20,
-    opacity: "100%",
+    duration: .5,
+    y: -30,
+    opacity: 0,
     stagger : .1
 })
