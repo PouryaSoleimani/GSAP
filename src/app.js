@@ -111,3 +111,9 @@ TL.from(".navitem", {
     opacity: 0,
     stagger : .1
 })
+TL.from("#GSAPTEXT" , {
+    duration : 2 , 
+    scale : .8 , 
+    opacity : 0 ,
+    ease : "power1.inOut"
+})
