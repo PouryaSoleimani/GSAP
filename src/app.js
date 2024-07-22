@@ -81,9 +81,18 @@ var tl = gsap.timeline()
 tl.to("#T1", {
     duration: 1.5,
     x: 1650,
-    repeat: -1,
-    ease : "power1.inOut",
-    yoyo: true,
+    ease: "power1.inOut",
     backgroundColor: "#FABB14",
 })
-tl.to("box_t2")
+tl.to("#T2", {
+    duration: 1.5,
+    x: 1650,
+    ease: "power1.inOut",
+    backgroundColor: "#9e0000"
+})
+tl.to("#T3", {
+    duration: 1.5,
+    x: 1650,
+    ease: "power1.inOut",
+    backgroundColor: "#62ff24"
+})
