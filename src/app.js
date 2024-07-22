@@ -100,13 +100,14 @@ tl.to("#T3", {
 //^ ANOTHER TIMELINE EXAMPLE
 let TL = gsap.timeline()
 
-TL.to("#nav", {
+TL.from("#nav", {
     duration: 1,
-    y: 0,
+    y: -20,
     opacity: "100%",
 })
-TL.to(".navitem", {
+TL.from(".navitem", {
     duration: 1,
-    y: 0,
-    opacity: "100%"
+    y: -20,
+    opacity: "100%",
+    stagger : .1
 })
