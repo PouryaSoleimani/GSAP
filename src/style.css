@@ -25,19 +25,19 @@
     font-weight: 900;
     letter-spacing: -10px;
 }
-/* 
-#BOX_t1{
-    width: 300px;
-    height: 300px;
+
+#T1 {
+    width: 200px;
+    height: 200px;
     background-color: darkred;
 }
-#BOX_t2{
-    width: 300px;
-    height: 300px;
+#T2 {
+    width: 200px;
+    height: 200px;
     background-color: rgb(1, 2, 63);
 }
-#BOX_t3{`
-    width: 300px;
-    height: 300px;
+#T3 {
+    width: 200px;
+    height: 200px;
     background-color: rgb(3, 63, 1);
-} */
+}
