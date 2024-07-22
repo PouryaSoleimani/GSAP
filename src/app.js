@@ -97,4 +97,16 @@ tl.to("#T3", {
     backgroundColor: "#62ff24"
 })
 
-// ANOTHER TIMELINE EXAMPLE
+//^ ANOTHER TIMELINE EXAMPLE
+let TL = gsap.timeline()
+
+TL.to("#nav", {
+    duration: 1,
+    y: 0,
+    opacity: "100%",
+})
+TL.to(".navitem", {
+    duration: 1,
+    y: 0,
+    opacity: "100%"
+})
