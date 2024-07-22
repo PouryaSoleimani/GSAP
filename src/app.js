@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 })
 
 //* NEW TUTORIAL =======================================================================================================================================================================    
+//^ BASICS
 gsap.to("#box1", {
     duration: 1.5,
     backgroundColor: "#FABB14",
@@ -71,3 +72,15 @@ gsap.from(".newText", {
     opacity: .5,
     stagger: .3,
 }) 
+
+//^ TIMELINE
+// 1 - TO USE TIMELINES IN {GSAP} , WE MUST FIRST CREATE A TIMELINE AND SAVE IT IN A VARIABLE
+var tl = gsap.timeline() 
+
+// 2 - THEN WE SHOULD USE THE VARIABLE {tl} INSTEAD OF GSAP : GSAP.TO ==> TL.TO
+tl.to("#box_t1", {
+    duration: 1.5,
+    x : 1750 , 
+    backgroundColor: "#FABB14",
+})
+tl.to("box_t2")
