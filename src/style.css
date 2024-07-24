@@ -31,11 +31,13 @@
     height: 200px;
     background-color: darkred;
 }
+
 #T2 {
     width: 200px;
     height: 200px;
     background-color: rgb(1, 2, 63);
 }
+
 #T3 {
     width: 200px;
     height: 200px;
@@ -46,4 +48,16 @@
     width: 100%;
     height: 100%;
     background-color: lightblue;
+}
+
+#page2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(62, 135, 160);
+}
+
+#page3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(8, 48, 61);
 }
