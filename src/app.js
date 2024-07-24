@@ -109,7 +109,7 @@ TL.from(".navitem", {
     duration: .7,
     y: -30,
     opacity: 0,
-    stagger: .1
+    stagger: .2
 })
 TL.from("#GSAPTEXT", {
     duration: 2,
