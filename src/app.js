@@ -122,10 +122,10 @@ TL.from("#GSAPTEXT", {
 //^ SCROLL TRIGGER =============================================================================================================================
 gsap.from("#page1 #box", { scale: 0, delay: 1, duration: 1.5, opacity: 0, rotate: 180, })
 gsap.from("#page2 #box", {
+    duration: 1.5,
     scale: 0,
-    duration: 3.5,
+    rotate: 720,
     opacity: 0,
-    rotate: 360,
     ease: "power1.inOut",
     scrollTrigger: {
         trigger: "#page2 #box",
