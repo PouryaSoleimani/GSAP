@@ -80,3 +80,14 @@
     font-weight: 900;
     color : #fafafa
 }
+
+#box {
+    width: 300px;
+    height: 300px;
+    background-color: darkred;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
