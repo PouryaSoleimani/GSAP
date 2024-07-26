@@ -137,15 +137,16 @@ gsap.from("#page2 #box", {
     }
 })
 gsap.from("#page3 #box", {
-    x: "-200vw",
     duration: 1.5,
-    delay: .5,
-    rotate: 1400,
+    scale: 0,
+    rotate: "720",
+    opacity: 0,
+    ease: "power1.inOut",
     scrollTrigger: {
         trigger: "#page3 #box",
         scroller: "body",
-        start: "top 210%",
-        end: "top 30%",
-        scrub: true
+        start: "top 150%",
+        end: "top 50%",
+        scrub: true,
     }
 })
