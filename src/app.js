@@ -134,34 +134,3 @@ gsap.from("#page2 #box", {
     }
 })
 //ANOTHER EXAMPLE OF BASIC SCROLL TRIGGER
-gsap.from("#page2 h1", {
-    duration: 1.5,
-    opacity: 0,
-    scrollTrigger: {
-        trigger: "#page2 h1",
-        scroller: "body",
-        markers: true,
-        start: "top 70%"
-    }
-})
-
-gsap.from("#page2 h2", {
-    duration: 1.8,
-    opacity: 0,
-    scrollTrigger: {
-        trigger: "#page2 h1",
-        scroller: "body",
-        markers: true,
-        start: "top 40%"
-    }
-})
-
-gsap.from("#page2 p", {
-    duration: 2.5,
-    opacity: 0,
-    scrollTrigger: {
-        trigger: "#page2 p",
-        scoller: "body",
-        start: "top 50%"
-    }
-})
