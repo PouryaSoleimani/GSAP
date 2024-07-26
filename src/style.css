@@ -111,3 +111,10 @@
     color: transparent;
     background-clip: text;
 }
+
+#page2 p { 
+    font-size: 24px;
+    text-align: justify;
+    padding:1rem 20rem;
+
+}
