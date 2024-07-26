@@ -121,24 +121,24 @@ TL.from("#GSAPTEXT", {
 
 //^ SCROLL TRIGGER =============================================================================================================================
 gsap.from("#page1 #box", { scale: 0, delay: 1, duration: 1.5, opacity: 0, rotate: 180, })
+//& PINK BOX
 gsap.from("#page2 #box", {
     duration: 1.5,
     scale: 0,
     rotate: "-720",
-    x: -1500,
     opacity: 0,
     ease: "power1.inOut",
     scrollTrigger: {
         trigger: "#page2 #box",
         scroller: "body",
-        start: "top 250%",
-        end: "top 50%",
+        start: "top 160%",
+        end: "top 40%",
         scrub: true,
     }
 })
 // ANOTHER SCROLL TRIGGER EXAMPLE ( HORIZONTAL SCROLL )
 gsap.to("#page3 h1", {
-    transform:"translateX(-150%)",
+    transform: "translateX(-150%)",
     scrollTrigger: {
         trigger: "#page3",
         scroller: "body",
