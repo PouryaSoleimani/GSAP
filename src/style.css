@@ -99,14 +99,14 @@
 }
 
 #page2 h1 {
-    font-size: 180px;
+    font-size: 140px;
     background: linear-gradient(75deg, #64fc64, #035203);
     color: transparent;
     background-clip: text;
 }
 
 #page2 h2 {
-    font-size: 130px;
+    font-size: 80px;
     background: linear-gradient(to right, yellow, red, purple);
     color: transparent;
     background-clip: text;
