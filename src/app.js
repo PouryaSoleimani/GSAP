@@ -131,8 +131,8 @@ gsap.from("#page2 #box", {
         trigger: "#page2 #box",
         scroller: "body",
         markers: true,
-        start: "top 150%",
-        end: "top 50%",
+        start: "top 170%",
+        end: "top 40%",
         scrub: true
     }
 })
