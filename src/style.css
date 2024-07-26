@@ -69,7 +69,7 @@
     color: #fafafa;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     gap: 2rem;
     flex-direction: column;
 }
@@ -112,9 +112,9 @@
     background-clip: text;
 }
 
-#page2 p { 
+#page2 p {
     font-size: 24px;
     text-align: justify;
-    padding:1rem 20rem;
+    padding: 1rem 20rem;
 
 }
