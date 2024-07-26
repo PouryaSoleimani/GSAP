@@ -69,9 +69,7 @@
     color: #fafafa;
     display: flex;
     align-items: center;
-    justify-content: start;
-    gap: 2rem;
-    flex-direction: column;
+    justify-content: center;
 }
 
 #page3 {
@@ -96,25 +94,4 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-}
-
-#page2 h1 {
-    font-size: 140px;
-    background: linear-gradient(75deg, #64fc64, #035203);
-    color: transparent;
-    background-clip: text;
-}
-
-#page2 h2 {
-    font-size: 80px;
-    background: linear-gradient(to right, yellow, red, purple);
-    color: transparent;
-    background-clip: text;
-}
-
-#page2 p {
-    font-size: 24px;
-    text-align: justify;
-    padding: 1rem 20rem;
-
 }
