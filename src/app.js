@@ -131,18 +131,20 @@ gsap.from("#page2 #box", {
     scrollTrigger: {
         trigger: "#page2 #box",
         scroller: "body",
-        markers: true,
         start: "top 250%",
         end: "top 50%",
         scrub: true,
     }
 })
-//ANOTHER SCROLL TRIGGER EXAMPLE ( HORIZONTAL SCROLL )
+// ANOTHER SCROLL TRIGGER EXAMPLE ( HORIZONTAL SCROLL )
 gsap.to("#horizontal__text", {
     transform: "translateX(-150%)",
     scrollTrigger: {
-        trigger: "#horizontal__text",
+        trigger: "#page3",
         scroller: "body",
-        scrub: true
+        start: "top 0%",
+        end: "top -150%",
+        scrub: 2,
+        pin: true
     }
 })
