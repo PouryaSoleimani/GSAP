@@ -125,12 +125,13 @@ gsap.from("#page2 #box", {
     scale: 0,
     duration: 1.5,
     opacity: 0,
-    rotate: 180,
+    rotate: 720,
+    ease: "power1.inOut",
     scrollTrigger: {
         trigger: "#page2 #box",
         scroller: "body",
         markers: true,
-        start: "top 60%",
+        start: "top 70%",
     }
 })
-//ANOTHER EXAMPLE OF BASIC SCROLL TRIGGER
+
