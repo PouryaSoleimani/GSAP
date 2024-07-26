@@ -135,7 +135,7 @@ gsap.from("#page2 #box", {
 })
 //ANOTHER EXAMPLE OF BASIC SCROLL TRIGGER
 gsap.from("#page2 h1", {
-    scale: 0,
+    delay : .5
     duration: 1.5,
     opacity: 0,
     scrollTrigger: {
@@ -146,7 +146,7 @@ gsap.from("#page2 h1", {
     }
 })
 gsap.from("#page2 h2", {
-    scale: 0,
+    delay : .5 ,
     duration: 1.5,
     opacity: 0,
     scrollTrigger: {
