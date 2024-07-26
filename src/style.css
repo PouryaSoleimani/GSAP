@@ -44,6 +44,10 @@
     background-color: rgb(3, 63, 1);
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /*^ GSAP SCROLL TRIGGER  *****************************************************************************************************************************/
 #page1 {
     width: 100%;
@@ -56,6 +60,7 @@
     font-weight: 900;
     color: #fafafa;
 }
+
 #page2 {
     width: 100%;
     height: 100%;
@@ -74,7 +79,6 @@
 #page3 {
     width: 100%;
     height: 100%;
-    font-size: 150px;
     font-weight: 900;
     color: #fafafa;
     background-color: black;
@@ -100,6 +104,6 @@
         inset -30px 30px 60px #ffc2ea;
 }
 
-#horizontal__text {
+#page3 h1 {
     font-size: 40vw;
 }

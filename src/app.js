@@ -137,8 +137,8 @@ gsap.from("#page2 #box", {
     }
 })
 // ANOTHER SCROLL TRIGGER EXAMPLE ( HORIZONTAL SCROLL )
-gsap.to("#horizontal__text", {
-    transform: "translateX(-150%)",
+gsap.to("#page3 h1", {
+    transform:"translateX(-150%)",
     scrollTrigger: {
         trigger: "#page3",
         scroller: "body",
