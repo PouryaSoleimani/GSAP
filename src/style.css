@@ -57,6 +57,11 @@
     color: #fafafa;
 }
 
+body {
+    background-color: #070707;
+    overflow-x: hidden;
+}
+
 #page2 {
     width: 100%;
     height: 100%;
@@ -70,15 +75,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}`
 
 #page3 {
     width: 100%;
     height: 100%;
-    background-color: rgb(8, 48, 61);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 150px;
     font-weight: 900;
     color: #fafafa
@@ -97,5 +98,9 @@
     border-radius: 54px;
     background: #df94b3;
     box-shadow: inset 30px -30px 60px #9a667c,
-                inset -30px 30px 60px #ffc2ea;
+        inset -30px 30px 60px #ffc2ea;
+}
+
+#horizontal__text {
+    font-size: 40vw;
 }
