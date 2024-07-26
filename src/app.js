@@ -125,6 +125,7 @@ gsap.from("#page2 #box", {
     duration: 1.5,
     scale: 0,
     rotate: "-720",
+    x : -1500,
     opacity: 0,
     ease: "power1.inOut",
     scrollTrigger: {
@@ -133,7 +134,7 @@ gsap.from("#page2 #box", {
         markers: true,
         start: "top 250%",
         end: "top 50%",
-        scrub: true
+        scrub: true,
     }
 })
 
