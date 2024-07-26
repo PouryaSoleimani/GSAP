@@ -124,15 +124,15 @@ gsap.from("#page1 #box", { scale: 0, delay: 1, duration: 1.5, opacity: 0, rotate
 gsap.from("#page2 #box", {
     duration: 1.5,
     scale: 0,
-    rotate: 720,
+    rotate: "-720",
     opacity: 0,
     ease: "power1.inOut",
     scrollTrigger: {
         trigger: "#page2 #box",
         scroller: "body",
         markers: true,
-        start: "top 170%",
-        end: "top 40%",
+        start: "top 250%",
+        end: "top 50%",
         scrub: true
     }
 })
