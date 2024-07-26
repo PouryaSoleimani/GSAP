@@ -70,7 +70,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .2rem;
+    gap: 10rem;
     flex-direction: column;
 }
 
@@ -86,6 +86,18 @@
     color: #fafafa
 }
 
+#box {
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    border: 4px solid black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
 #page2 h1 {
     font-size: 180px;
     background: linear-gradient(75deg, #64fc64, #035203);
@@ -98,16 +110,4 @@
     background: linear-gradient(to right, yellow, red, purple);
     color: transparent;
     background-clip: text;
-}
-
-#box {
-    width: 300px;
-    height: 300px;
-    background-color: orange;
-    border: 4px solid black;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
 }
