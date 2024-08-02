@@ -147,3 +147,9 @@
   align-items: center;
   justify-content: center;
 }
+
+#page4 #text_page_4 {
+  color: orange;
+  background: black;
+  background-clip: border-box;
+}
