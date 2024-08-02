@@ -163,7 +163,7 @@ gsap.from("#page4 #text_page_4", {
     scrollTrigger: {
         trigger: "#text_page_4",
         scroller: "body",
-        start: "top 150%",
+        start: "top 120%",
         bottom: "top 0",
         scrub: true
     }
