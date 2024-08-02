@@ -123,9 +123,9 @@ TL.from("#GSAPTEXT", {
 gsap.from("#page1 #box", { scale: 0, delay: 1, duration: 1.5, opacity: 0, rotate: 180, })
 //& PINK BOX
 gsap.from("#page2 #box", {
-    duration: 1.5,
+    duration: 2.5,
     scale: 0,
-    rotate: "-720",
+    rotate: 720,
     opacity: 0,
     ease: "power1.inOut",
     scrollTrigger: {
