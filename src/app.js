@@ -156,15 +156,15 @@ gsap.from("#page3 #box", {
     }
 })
 
-gsap.from("text_page_4", {
-    duration: 2,
-    rotate: 360,
+gsap.from("#page4 #text_page_4", {
+    duration: 1,
     scale: 0,
+    opacity: 0,
     scrollTrigger: {
         trigger: "#text_page_4",
         scroller: "body",
         start: "top 150%",
-        bottom: "top 10%",
+        bottom: "top 0",
         scrub: true
     }
 })
