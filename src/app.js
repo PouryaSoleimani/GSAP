@@ -144,7 +144,7 @@ gsap.from("#page2 #box", {
 gsap.from("#page3 #box", {
     duration: 1.5,
     scale: 0,
-    rotate: "720",
+    rotate: 720,
     opacity: 0,
     ease: "power1.inOut",
     scrollTrigger: {
