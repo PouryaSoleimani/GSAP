@@ -1,114 +1,129 @@
 #container {
-    width: 100%;
-    height: 100%;
-    --color: rgba(114, 114, 114, 0.3);
-    background-color: #070707;
-    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%,
-            transparent 27%, transparent 74%, var(--color) 75%,
-            var(--color) 76%, transparent 77%, transparent),
-        linear-gradient(90deg, transparent 24%,
-            var(--color) 25%, var(--color) 26%,
-            transparent 27%, transparent 74%, var(--color) 75%,
-            var(--color) 76%, transparent 77%, transparent);
-    background-size: 55px 55px;
+  width: 100%;
+  height: 100%;
+  --color: rgba(114, 114, 114, 0.3);
+  background-color: #070707;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
 }
 
 #box1 {
-    width: 300px;
-    height: 300px;
-    background-color: crimson;
+  width: 300px;
+  height: 300px;
+  background-color: crimson;
 }
 
 .newText {
-    color: white;
-    font-size: 6rem;
-    font-weight: 900;
-    letter-spacing: -10px;
+  color: white;
+  font-size: 6rem;
+  font-weight: 900;
+  letter-spacing: -10px;
 }
 
 #T1 {
-    width: 200px;
-    height: 200px;
-    background-color: darkred;
+  width: 200px;
+  height: 200px;
+  background-color: darkred;
 }
 
 #T2 {
-    width: 200px;
-    height: 200px;
-    background-color: rgb(1, 2, 63);
+  width: 200px;
+  height: 200px;
+  background-color: rgb(1, 2, 63);
 }
 
 #T3 {
-    width: 200px;
-    height: 200px;
-    background-color: rgb(3, 63, 1);
+  width: 200px;
+  height: 200px;
+  background-color: rgb(3, 63, 1);
 }
 
 /*^ GSAP SCROLL TRIGGER  *****************************************************************************************************************************/
 #page1 {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(58, 59, 59);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 150px;
-    font-weight: 900;
-    color: #fafafa;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(58, 59, 59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  font-weight: 900;
+  color: #fafafa;
 }
 
 #page2 {
-    width: 100%;
-    height: 100%;
-    background-color: #df94b3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 150px;
-    font-weight: 900;
-    color: #fafafa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #df94b3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  font-weight: 900;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #page3 {
-    width: 100%;
-    height: 100%;
-    font-weight: 900;
-    color: #fafafa;
-    background-color: #5dbb97;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    padding: 1rem 3rem;
-    font-size: 150px;
-    font-weight: 900;
-    color: #fafafa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 900;
+  color: #fafafa;
+  background-color: #5dbb97;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 1rem 3rem;
+  font-size: 150px;
+  font-weight: 900;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #box {
-    width: 450px;
-    height: 450px;
-    background-color: orange;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 450px;
+  height: 450px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #page2 #box {
-    border-radius: 54px;
-    background: #df94b3;
-    box-shadow: inset 30px -30px 60px #9a667c,
-        inset -30px 30px 60px #ffc2ea;
+  border-radius: 54px;
+  background: #df94b3;
+  box-shadow: inset 30px -30px 60px #9a667c, inset -30px 30px 60px #ffc2ea;
 }
 
 #page3 #box {
-    border-radius: 59px;
-    background: #5dbb97;
-    box-shadow: inset 34px -34px 68px #2d5a48,
-        inset -34px 34px 68px #8dffe6;
+  border-radius: 59px;
+  background: #5dbb97;
+  box-shadow: inset 34px -34px 68px #2d5a48, inset -34px 34px 68px #8dffe6;
 }
