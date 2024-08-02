@@ -155,3 +155,16 @@ gsap.from("#page3 #box", {
         scrub: true,
     }
 })
+
+gsap.from("text_page_4", {
+    duration: 2,
+    rotate: 360,
+    scale: 0,
+    scrollTrigger: {
+        trigger: "#text_page_4",
+        scroller: "body",
+        start: "top 150%",
+        bottom: "top 10%",
+        scrub: true
+    }
+})
