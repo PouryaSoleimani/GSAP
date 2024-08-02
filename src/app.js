@@ -127,7 +127,6 @@ gsap.from("#page2 #box", {
     scale: 0,
     rotate: 720,
     opacity: 0,
-    ease: "power1.inOut",
     scrollTrigger: {
         trigger: "#page2 #box",
         scroller: "body",
