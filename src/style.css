@@ -153,4 +153,5 @@
   background-clip: text;
   color: transparent;
   text-shadow: 0 0 3px orange, 2px 20px 5px #0000FF;
+  -webkit-text-stroke: 5px black;
   }
