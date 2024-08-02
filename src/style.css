@@ -149,7 +149,8 @@
 }
 
 #page4 #text_page_4 {
-  color: orange;
-  background: black;
-  background-clip: border-box;
-}
+  background: linear-gradient(to right, orange, orangered);
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 3px orange, 2px 20px 5px #0000FF;
+  }
