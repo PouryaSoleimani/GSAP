@@ -61,7 +61,7 @@ gsap.to("#box1", {
     x: 1770,
     delay: 1,
     ease: "none",
-    repeat: -1, // -1 MAKES THE ELEMENT TO PERFORM ANIMATION INFINITELY
+    repeat: -1, // -1 MAKES THE ELEMENT TO PERFORM THE ANIMATION INFINITELY
     yoyo: true //  GOING BACK AND FORWARD AND REPEAT THE ANIMATION BACKWARDLY
 })
 
