@@ -157,14 +157,14 @@ gsap.from("#page3 #box", {
 })
 // * TEXT ==========================================================================================================================================================
 gsap.from("#page4 #text_page_4", {
-    duration: 1,
+    duration: 1.5,
     scale: 0,
     opacity: 0,
     scrollTrigger: {
         trigger: "#text_page_4",
         scroller: "body",
-        start: "top 120%",
-        bottom: "top 0",
+        start: "top 150%",
+        bottom: "top 30%",
         scrub: true
     }
 })
