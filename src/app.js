@@ -172,12 +172,13 @@ gsap.from("#page4 #text_page_4", {
 // ? HORIZONTAL ==========================================================================================================================================================
 gsap.to('#HORIZONTAL__TEXT', {
     transform: "translateX(-100%)",
-    duration: 3,
     scrollTrigger: {
-        trigger: "#page5 #HORIZONTAL__TEXT",
+        trigger: "#page5",
         scroller: "body",
         markers: true,
-        start: "top 20%",
-        scrub: true
+        start: "top 0%",
+        end: "top -100%",
+        scrub: 2,
+        pin: true
     }
 })
