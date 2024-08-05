@@ -178,7 +178,7 @@ gsap.to('#HORIZONTAL__TEXT', {
         markers: true,
         start: "top 0%",
         end: "top -100%",
-        scrub: 2,
+        scrub: true,
         pin: true
     }
 })
