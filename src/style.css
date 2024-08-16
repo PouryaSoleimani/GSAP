@@ -201,8 +201,8 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: end;
-  padding-right: 7rem;
+  justify-content: start;
+  padding-left: 7rem;
 }
 #page3__REVIEW {
   background-color: gray;
