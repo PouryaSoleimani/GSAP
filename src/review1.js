@@ -10,7 +10,7 @@ gsap.from("#BOX__REVIEW__2", {
     duration: 3,
     rotate: 720,
     x: "100vw",
-    scrolLTrigger: {
+    scrollTrigger: {
         trigger: "#BOX__REVIEW__2",
         scroller: "body",
         scrub: true,
