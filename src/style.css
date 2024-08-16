@@ -226,7 +226,7 @@ body {
 #BOX__REVIEW__2 {
   width: 300px;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 100%;
   background-color: darkblue;
   font-size: 80px;
   color: white;
@@ -234,6 +234,7 @@ body {
   align-items: center;
   justify-content: center;
   font-weight: 900;
+  position: absolute;
 }
 #BOX__REVIEW__3 {
   width: 300px;
