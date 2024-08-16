@@ -1,4 +1,5 @@
 //* GSAP REVIEW 1
+gsap.registerPlugin(ScrollTrigger) 
 // ! BOX 1
 gsap.from("#BOX__REVIEW__1", {
     duration: 5,
@@ -10,7 +11,7 @@ gsap.from("#BOX__REVIEW__1", {
 })
 gsap.from("#heart_container", {
     duration: 3,
-    rotate: 720,
+    rotateZ: 720,
     x: "100vw",
     scrollTrigger: {
         trigger: "#heart_container",
