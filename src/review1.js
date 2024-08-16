@@ -15,6 +15,8 @@ gsap.from("#BOX__REVIEW__2", {
         scroller: "body",
         start: "top 150%",
         end: "top 30%",
-        markers: true
+        markers: true,
+        scrub: true
     }
 })
+
