@@ -7,13 +7,13 @@ gsap.from("#BOX__REVIEW__1", {
     ease: "back"
 })
 gsap.from("#BOX__REVIEW__2", {
-    duration: 2,
+    duration: 4,
     x: "-200vw",
     scrollTrigger: {
         trigger: "#page2__REVIEW #BOX__REVIEW__2",
         scroller: "body",
         start: "top 120%",
-        end: "top 30%",
+        end: "top 40%",
         scrub: true
     }
 })
