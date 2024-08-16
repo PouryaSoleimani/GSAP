@@ -6,12 +6,12 @@ gsap.from("#BOX__REVIEW__1", {
     backgroundColor: "#FABB14",
     ease: "back"
 })
-gsap.from("#BOX__REVIEW__2", {
+gsap.from("#heart", {
     duration: 3,
     rotate: 720,
     x: "100vw",
     scrollTrigger: {
-        trigger: "#BOX__REVIEW__2",
+        trigger: "#heart",
         scroller: "body",
         scrub: true,
         start: "top 100%"
