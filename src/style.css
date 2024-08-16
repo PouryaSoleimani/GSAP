@@ -216,16 +216,34 @@ body {
   height: 300px;
   border-radius: 20px;
   background-color: darkred;
+  font-size: 80px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
 }
 #BOX__REVIEW__2 {
   width: 300px;
   height: 300px;
   border-radius: 20px;
   background-color: darkblue;
+  font-size: 80px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
 }
 #BOX__REVIEW__3 {
   width: 300px;
   height: 300px;
   border-radius: 20px;
   background-color: darkgreen;
+  font-size: 80px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
 }
