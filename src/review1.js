@@ -3,5 +3,5 @@ gsap.from("#BOX__REVIEW__1", {
     rotate: "-360",
     x: "-100vw",
     delay: .5 , 
-    ease : "bounce"
+    ease : "back"
 })
