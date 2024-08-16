@@ -12,7 +12,7 @@ gsap.from("#BOX__REVIEW__2", {
     scrollTrigger: {
         trigger: "#page2__REVIEW #BOX__REVIEW__2",
         scroller: "body",
-        start: "top 120%",
+        start: "top 150%",
         end: "top 40%",
         scrub: true
     }
