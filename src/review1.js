@@ -20,7 +20,13 @@ gsap.from("#heart_container", {
         scrub: 1,
         start: "50% 50%",
         pin: true,
-        ease: "back"
+        ease: "back",
+        fastScrollEnd: true , 
+        containerAnimation: tween,
+        anticipatePin: 1,
+        directional: true,
+        pinReparent: true,
+        horizontal: true,
     }
 })
 // * GREEN BOX
