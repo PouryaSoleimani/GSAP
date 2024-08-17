@@ -9,13 +9,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.to("#SQUARE__5", { x: "20%", y: "-200%", duration: 1.5, rotation: 120 })
     gsap.to("#SQUARE__6", { x: "40%", y: "-150%", duration: 1.5, rotation: 30 })
     //^BOXES
-    //BOX__0
+
     gsap.from('#BOX0', { rotation: 60, duration: 1, x: "-210%", scrollTrigger: { trigger: "#BOX0", toggleActions: "restart pause reverse restart", scrub: true } })
-    //BOX__1
     gsap.from('#BOX1', { rotation: 180, duration: 1, x: "200%", scrollTrigger: { trigger: "#BOX1", toggleActions: "restart pause reverse restart", scrub: true } })
-    //BOX__2
     gsap.from("#BOX2", { rotation: 120, duration: 1, x: "-240%", scrollTrigger: { trigger: "#BOX2", toggleActions: "restart pause reverse restart", scrub: true } })
-    //& TEXT
     gsap.to("#NEWTEXT", { duration: 3, text: "WELCOME TO GSAP", ease: "none", toggleActions: "restart pause reverse restart" })
 
     // ^ LOGOS =================================================================================================================================
