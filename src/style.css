@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  overflow: auto;
 }
 #container {
   width: 100%;
@@ -212,6 +212,7 @@ body {
   justify-content: center;
   overflow: hidden;
   padding-top: 3rem;
+  overflow-x: hidden;
 }
 #HOR__TEXT {
   font-size: 40vw;

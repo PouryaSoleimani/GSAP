@@ -42,17 +42,3 @@ gsap.from("#BOX__REVIEW__3", {
     }
 })
 
-// ? HORIZONTAL TEXT
-gsap.to("#HOR__TEXT", {
-    transform: "translateX(-100%)",
-    duration: 5,
-    scrollTrigger: {
-        trigger: "#page3__REVIEW",
-        scroller: "body",
-        start: "50% 50%",
-        scrub: true,
-        pin: true , 
-        anticipatePin: 1,
-    }
-
-})
