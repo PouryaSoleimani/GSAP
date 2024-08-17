@@ -13,6 +13,7 @@ gsap.from("#BOX__REVIEW__1", {
 gsap.from("#heart_container", {
     duration: 3,
     rotateZ: 720,
+    scale: 0,
     scrollTrigger: {
         trigger: "#page2__REVIEW",
         scroller: "body",
