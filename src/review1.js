@@ -10,17 +10,16 @@ gsap.from("#BOX__REVIEW__1", {
     ease: "back"
 })
 // ! HEART
-gsap.from("#heart", {
+gsap.from("#heart_container", {
     duration: 3,
     rotateZ: 720,
     x: "100vw",
-    repeat: -1,
     scrollTrigger: {
         trigger: "#heart_container",
         scroller: "body",
-        scrub: 5,
-        start: "top 100%",
-        pin: true
+        scrub: 1,
+        start: "50% 50%",
+        pin: true,
     }
 })
 // * GREEN BOX
