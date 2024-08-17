@@ -21,7 +21,7 @@ gsap.from("#heart_container", {
         start: "50% 50%",
         pin: true,
         ease: "back",
-        fastScrollEnd: true , 
+        fastScrollEnd: true,
         containerAnimation: tween,
         anticipatePin: 1,
         directional: true,
@@ -41,4 +41,24 @@ gsap.from("#BOX__REVIEW__3", {
         scrub: true,
         start: "top 150%"
     }
+})
+
+// ? HORIZONTAL TEXT
+gsap.to("#HOR__TEXT", {
+    transform: "translateX(-100%)",
+    duration: 5,
+    scrollTrigger: {
+        trigger: "#page3__REVIEW",
+        scroller: "body",
+        scrub: true,
+        pin: true ,
+        ease: "back",
+        fastScrollEnd: true,
+        anticipatePin: 1,
+        directional: true,
+        pinReparent: true,
+        horizontal: true,
+        start : "50% 50%"
+    }
+
 })
