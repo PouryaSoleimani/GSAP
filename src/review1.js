@@ -22,10 +22,6 @@ gsap.from("#heart_container", {
         pin: true,
         ease: "back",
         fastScrollEnd: true,
-        anticipatePin: 1,
-        directional: true,
-        pinReparent: true,
-        horizontal: true,
     }
 })
 // * GREEN BOX

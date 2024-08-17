@@ -263,11 +263,10 @@ body {
 #heart_container {
   background-color: white;
   padding: 4rem;
-  border-radius: 20%;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 100%;
 }
 #heart {
   position: relative;
