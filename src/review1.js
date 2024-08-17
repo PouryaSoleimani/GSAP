@@ -22,7 +22,6 @@ gsap.from("#heart_container", {
         pin: true,
         ease: "back",
         fastScrollEnd: true,
-        containerAnimation: tween,
         anticipatePin: 1,
         directional: true,
         pinReparent: true,
@@ -50,15 +49,10 @@ gsap.to("#HOR__TEXT", {
     scrollTrigger: {
         trigger: "#page3__REVIEW",
         scroller: "body",
+        start: "50% 50%",
         scrub: true,
-        pin: true ,
-        ease: "back",
-        fastScrollEnd: true,
+        pin: true , 
         anticipatePin: 1,
-        directional: true,
-        pinReparent: true,
-        horizontal: true,
-        start : "50% 50%"
     }
 
 })
