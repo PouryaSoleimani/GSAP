@@ -13,13 +13,13 @@ gsap.from("#BOX__REVIEW__1", {
 gsap.from("#heart_container", {
     duration: 3,
     rotateZ: 720,
-    x: "100vw",
     scrollTrigger: {
-        trigger: "#heart_container",
+        trigger: "#page2__REVIEW",
         scroller: "body",
         scrub: 1,
         start: "50% 50%",
         pin: true,
+        ease : "back"
     }
 })
 // * GREEN BOX
