@@ -40,3 +40,8 @@ gsap.from("#BOX__REVIEW__3", {
 
 // ^ CARDS
 gsap.registerPlugin(ScrollTrigger)
+gsap.set(".card", { position: 'absolute' })
+gsap.to(".card", {
+    y: -230,
+    stagger: 0.5
+}) 

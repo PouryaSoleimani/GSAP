@@ -411,10 +411,12 @@ a:hover {
   font-size: xx-large;
   font-weight: bolder;
   padding: 2em 0;
+  position: relative;
 }
 .card {
   --spacing: 4rem;
   background-color: whitesmoke;
+  top:500px;
   position: relative;
   padding: 2rem;
   height: 300px;
@@ -432,4 +434,10 @@ a:hover {
 }
 .card:nth-child(3) {
   top: calc(var(--spacing) * 3);
+}
+
+section{
+  width: 100vw;
+  height: 100vh;
+  background-color: slategray;
 }
