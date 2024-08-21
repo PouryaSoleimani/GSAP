@@ -48,9 +48,10 @@ gsap.to(".card", {
         trigger: ".card__container",
         scroller: "body",
         start: "top top",
-        end: "+=2000px",
-        scrub: true,
+        end: "+=2000",
+        scrub: 1,
         pin: true,
         anticipatePin: 1,
+        ease: 'power1.inOut'
     }
 }) 
