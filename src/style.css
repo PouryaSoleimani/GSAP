@@ -416,8 +416,6 @@ a:hover {
 .card {
   --spacing: 4rem;
   background-color: whitesmoke;
-  top:500px;
-  position: relative;
   padding: 2rem;
   height: 300px;
   width: 600px;
@@ -436,7 +434,7 @@ a:hover {
   top: calc(var(--spacing) * 3);
 }
 
-section{
+section {
   width: 100vw;
   height: 100vh;
   background-color: slategray;
