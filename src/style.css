@@ -398,9 +398,33 @@ a:hover {
 }
 
 /* CARDS *******************************************************************************************************************************************************************/
+#cards_first_div {
+  width: 100vw;
+  height: 100vh;
+  font-size: 100px;
+  color: black;
+  text-align: center;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cards_second_div {
+  width: 100vw;
+  height: 100vh;
+  font-size: 100px;
+  color: white;
+  background-color: #070707;
+  text-align: center;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .cards__container {
   width: 100vw;
-  height: 120vh;
+  height: 10vh;
   position: relative;
   background-color: #2b2b2b;
   display: flex;
@@ -412,7 +436,7 @@ a:hover {
 .card {
   --spacing: 4rem;
   position: relative;
-  width: 40vw;
+  width: 35vw;
   top: var(--spacing);
   height: 500px;
   background-color: #fafafa;
@@ -435,10 +459,4 @@ a:hover {
 }
 .card:nth-child(3) {
   top: calc(var(--spacing) * 3);
-}
-
-#cards_second_div {
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
 }
