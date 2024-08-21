@@ -227,8 +227,8 @@ body {
   white-space: nowrap;
 }
 #BOX__REVIEW__1 {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 10%;
   background-color: rgb(251, 31, 141);
   font-size: 80px;
