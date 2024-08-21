@@ -400,18 +400,18 @@ a:hover {
 /* CARDS *******************************************************************************************************************************************************************/
 .cards__container {
   width: 100vw;
-  height: 120vh;
+  height: 220vh;
   position: relative;
   background-color: #2b2b2b;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  row-gap: 2rem;
+  justify-content: start;
+  row-gap: 1rem;
 }
 .card {
   --spacing: 4rem;
-  position: absolute;
+  position: relative;
   width: 40vw;
   top: var(--spacing);
   height: 500px;
