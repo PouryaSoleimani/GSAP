@@ -401,7 +401,7 @@ a:hover {
 .card__container {
   background-color: #2b2b2b;
   width: 100vw;
-  height: 80vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;

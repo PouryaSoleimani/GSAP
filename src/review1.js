@@ -51,5 +51,6 @@ gsap.to(".card", {
         end: "+=2000px",
         scrub: true,
         pin: true,
+        anticipatePin: 1,
     }
 }) 
