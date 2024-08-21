@@ -400,7 +400,7 @@ a:hover {
 /* CARDS *******************************************************************************************************************************************************************/
 .cards__container {
   width: 100vw;
-  height: auto;
+  min-height: 100vh;
   position: relative;
   background-color: #2b2b2b;
   display: flex;
@@ -436,7 +436,7 @@ a:hover {
   top: calc(var(--spacing) * 3);
 }
 
-.CARDS_SECOND_DIV {
+#cards_second_div {
   width: 100vw;
   height: 100vh;
   background-color: black;
