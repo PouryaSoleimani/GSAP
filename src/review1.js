@@ -40,14 +40,16 @@ gsap.from("#BOX__REVIEW__3", {
 
 // ^ CARDS
 gsap.registerPlugin(ScrollTrigger)
-// gsap.set(".card", { position: 'absolute' })
 gsap.to(".card", {
-    position: "absolute",
-    duration: 3,
-    y: -230,
+    duration: 1.5,
+    y: "-100",
     stagger: 0.5,
     scrollTrigger: {
         trigger: ".card__container",
-        start: "top top"
+        scroller: "body",
+        start: "top top",
+        end: "+=2000px",
+        scrub: true,
+        pin: true,
     }
 }) 
