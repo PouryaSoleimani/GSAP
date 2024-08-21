@@ -43,12 +43,14 @@ gsap.registerPlugin(ScrollTrigger)
 gsap.to(".card", {
     duration: 1.5,
     y: "-100",
+    x: 0,
     stagger: 0.5,
     scrollTrigger: {
         trigger: ".card__container",
         scroller: "body",
+        endTrigger: 'section',
         start: "top top",
-        end: "+=2000",
+        end: "+=1000",
         scrub: 1,
         pin: true,
         anticipatePin: 1,
