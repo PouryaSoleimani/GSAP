@@ -450,3 +450,26 @@ a:hover {
   /* TOP */
   top: calc(var(--spacing) * 3);
 }
+
+.card__container2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5b5a5a;
+  color: whitesmoke;
+  padding: 2rem 0;
+}
+.card__container3 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  color: whitesmoke;
+  padding: 2rem 0;
+}
