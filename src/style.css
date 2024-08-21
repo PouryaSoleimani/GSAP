@@ -424,7 +424,7 @@ a:hover {
   z-index: 3;
   padding: 2rem;
   box-sizing: border-box;
-  font-size: 260px;
+  font-size: 60px;
   font-weight: 900;
 }
 
@@ -432,5 +432,5 @@ a:hover {
   top: calc(var(--spacing) * 2);
 }
 .card:nth-child(3) {
-  top: calc(var(--spacing) * 2);
+  top: calc(var(--spacing) * 3);
 }
