@@ -14,8 +14,8 @@ gsap.from("#heart_container", {
     rotateZ: 1440,
     scale: 0,
     scrollTrigger: {
-        trigger: "#page2__REVIEW",
-        scroller: "body",
+        trigger: "#page2__REVIEW", // always set the trigger to the element's parent
+        scroller: "body", // and we set the scroller to "body" 90% percent of the situations
         scrub: 1,
         start: "50% 50%",
         pin: true,
