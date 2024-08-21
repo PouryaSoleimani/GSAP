@@ -424,7 +424,7 @@ a:hover {
 
 .cards__container {
   width: 100vw;
-  height: 10vh;
+  height: 110vh;
   position: relative;
   background-color: #2b2b2b;
   display: flex;
@@ -449,7 +449,7 @@ a:hover {
   z-index: 3;
   padding: 2rem;
   box-sizing: border-box;
-  font-size: 360px;
+  font-size: 30px;
   margin-top: var(--spacing);
   font-weight: 900;
 }
