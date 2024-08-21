@@ -407,6 +407,7 @@ a:hover {
   align-items: center;
   background-color: #070707;
   color: whitesmoke;
+  position: relative;
   padding: 2rem 0;
 }
 .card {
