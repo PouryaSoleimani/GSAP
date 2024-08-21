@@ -405,13 +405,15 @@ a:hover {
   color: whitesmoke;
   padding: 2rem 0;
   position: relative;
+  top: 0;
+  left: 0;
 }
 .card {
   --spacing: 5rem;
   position: relative;
   width: 30vw;
   height: 250px;
-  top: 50%;
+  bottom: 100%;
   left: calc(50% - 250px);
   background-color: #2c2c2c;
   border-radius: 3%;
@@ -448,6 +450,8 @@ a:hover {
   background-color: #5b5a5a;
   color: whitesmoke;
   padding: 2rem 0;
+  position: relative;
+  z-index: 6;
 }
 .card__container3 {
   width: 100vw;
