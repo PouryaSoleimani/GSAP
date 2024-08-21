@@ -410,7 +410,7 @@ a:hover {
   padding: 2rem 0;
 }
 .card {
-  --spacing: 1rem;
+  --spacing: 5rem;
   position: absolute;
   width: 30vw;
   height: 250px;
@@ -426,6 +426,7 @@ a:hover {
   font-family: "Courier New", Courier, monospace;
   border: 5px solid lime;
 }
+
 .card:nth-child(1) {
   border: 5px solid rgb(133, 243, 37);
   top: calc(var(--spacing));
