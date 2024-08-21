@@ -400,7 +400,7 @@ a:hover {
 /* CARDS *******************************************************************************************************************************************************************/
 .CARDS_CONTAINER {
   width: 100vw;
-  height: 100%;
+
   padding: 4rem 0;
   background-color: #2b2b2b;
   display: flex;
@@ -411,8 +411,9 @@ a:hover {
 }
 .card {
   --spacing: 4rem;
-  position: absolute;
+  position: relative;
   width: 40vw;
+  top: var(--spacing);
   height: calc(100vh - var(--spacing) * 2);
   background-color: #fafafa;
   display: flex;
@@ -424,7 +425,7 @@ a:hover {
   z-index: 3;
   padding: 2rem;
   box-sizing: border-box;
-  font-size: 60px;
+  font-size: 360px;
   font-weight: 900;
 }
 
