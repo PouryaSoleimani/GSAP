@@ -397,10 +397,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/* CARDS */
+/* CARDS *******************************************************************************************************************************************************************/
 .CARDS_CONTAINER {
   width: 100vw;
-  height: fit-content;
+  height: 100%;
   padding: 4rem 0;
   background-color: #2b2b2b;
   display: flex;
@@ -411,6 +411,7 @@ a:hover {
 }
 .card {
   --spacing: 4rem;
+  position: absolute;
   width: 40vw;
   height: calc(100vh - var(--spacing) * 2);
   background-color: #fafafa;
@@ -426,9 +427,10 @@ a:hover {
   font-size: 260px;
   font-weight: 900;
 }
+
 .card:nth-child(2) {
   top: calc(var(--spacing) * 2);
 }
 .card:nth-child(3) {
-  top: calc((var(--spacing) * 2));
+  top: calc(var(--spacing) * 2);
 }
