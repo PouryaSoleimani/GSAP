@@ -436,7 +436,7 @@ a:hover {
   top: calc(var(--spacing) * 3);
 }
 
-#cards_second_div {
+#cards_second_container {
   width: 100vw;
   height: 100vh;
   background-color: black;
