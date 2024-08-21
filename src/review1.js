@@ -10,7 +10,7 @@ gsap.from("#BOX__REVIEW__1", {
 })
 // ! HEART
 gsap.from("#heart_container", {
-    duration: 3,
+    duration: 5,
     rotateZ: 1440,
     scale: 0,
     scrollTrigger: {
@@ -21,6 +21,7 @@ gsap.from("#heart_container", {
         pin: true,
         ease: "back",
         fastScrollEnd: true,
+        anticipatePin: 1,
     }
 })
 // * GREEN BOX
