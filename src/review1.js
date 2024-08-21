@@ -1,5 +1,5 @@
 //* GSAP REVIEW 1
-gsap.registerPlugin(ScrollTrigger)
+// gsap.registerPlugin(ScrollTrigger)
 // & PINK BOX 1
 gsap.from("#BOX__REVIEW__1", {
     duration: 5,
@@ -39,3 +39,4 @@ gsap.from("#BOX__REVIEW__3", {
 })
 
 // ! CARDS
+gsap.set('.card', { position: 'relative' })
