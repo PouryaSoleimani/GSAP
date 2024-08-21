@@ -39,4 +39,3 @@ gsap.from("#BOX__REVIEW__3", {
 })
 
 // ^ CARDS
-
