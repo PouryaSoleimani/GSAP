@@ -398,9 +398,10 @@ a:hover {
 }
 
 /* CARDS *******************************************************************************************************************************************************************/
-.CARDS_CONTAINER {
+.cards__container {
   width: 100vw;
   height: auto;
+  position: relative;
   background-color: #2b2b2b;
   display: flex;
   flex-direction: column;
@@ -433,4 +434,10 @@ a:hover {
 }
 .card:nth-child(3) {
   top: calc(var(--spacing) * 3);
+}
+
+.CARDS_SECOND_DIV {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
 }
