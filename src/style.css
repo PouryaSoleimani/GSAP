@@ -400,8 +400,7 @@ a:hover {
 /* CARDS *******************************************************************************************************************************************************************/
 .CARDS_CONTAINER {
   width: 100vw;
-
-  padding: 4rem 0;
+  height: auto;
   background-color: #2b2b2b;
   display: flex;
   flex-direction: column;
