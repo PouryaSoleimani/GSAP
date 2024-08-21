@@ -398,3 +398,14 @@ a:hover {
 }
 
 /* CARDS *******************************************************************************************************************************************************************/
+.card__container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  background-color: #070707;
+  color: whitesmoke;
+}
