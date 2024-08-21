@@ -6,7 +6,6 @@ gsap.from("#BOX__REVIEW__1", {
     rotate: "-360",
     scale: 0,
     x: "-100vw",
-    backgroundColor: "#FABB14",
     ease: "back"
 })
 // ! HEART
