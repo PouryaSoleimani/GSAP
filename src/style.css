@@ -199,7 +199,7 @@ body {
 }
 #page2__REVIEW {
   background-color: #2b2b2b;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   padding: 0;
   overflow-x: hidden;
