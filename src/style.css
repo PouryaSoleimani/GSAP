@@ -429,13 +429,21 @@ a:hover {
 
 .card:nth-child(1) {
   border: 5px solid rgb(133, 243, 37);
+  color: black;
+  text-shadow: 1px 1px 6px rgb(133, 243, 37);
   top: calc(var(--spacing));
 }
+
 .card:nth-child(2) {
   border: 5px solid rgb(243, 37, 37);
+  color: black;
+  text-shadow: 1px 1px 6px rgb(240, 37, 40);
   top: calc(var(--spacing) * 2);
 }
+
 .card:nth-child(3) {
   border: 5px solid rgb(240, 240, 40);
+  color: black;
+  text-shadow: 1px 1px 6px rgb(240, 240, 40);
   top: calc(var(--spacing) * 3);
 }
