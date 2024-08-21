@@ -411,9 +411,8 @@ a:hover {
 }
 .card {
   --spacing: 4rem;
-  position: relative;
   width: 40vw;
-  height: calc(100vh - var(--spacing) * 4);
+  height: calc(100vh - var(--spacing) * 2);
   background-color: #fafafa;
   display: flex;
   justify-content: center;
@@ -424,6 +423,8 @@ a:hover {
   z-index: 3;
   padding: 2rem;
   box-sizing: border-box;
+  font-size: 260px;
+  font-weight: 900;
 }
 .card:nth-child(2) {
   top: calc(var(--spacing) * 2);
