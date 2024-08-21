@@ -53,7 +53,6 @@ gsap.to(".card", {
         end: "+=1000",
         scrub: 1,
         pin: true,
-        anticipatePin: 1,
-        ease: 'power1.inOut'
+        anticipatePin: 2,
     }
 }) 

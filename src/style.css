@@ -412,6 +412,7 @@ a:hover {
   font-weight: bolder;
   padding: 2em 0;
   position: relative;
+  overflow-x: hidden;
 }
 .card {
   --spacing: 4rem;
