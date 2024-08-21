@@ -431,7 +431,6 @@ a:hover {
   border: 5px solid rgb(133, 243, 37);
   color: black;
   text-shadow: 1px 1px 6px rgb(133, 243, 37);
-  /* TOP */
   top: calc(var(--spacing));
 }
 
@@ -439,7 +438,6 @@ a:hover {
   border: 5px solid rgb(243, 37, 37);
   color: black;
   text-shadow: 1px 1px 6px rgb(240, 37, 40);
-  /* TOP */
   top: calc(var(--spacing) * 2);
 }
 
@@ -447,7 +445,6 @@ a:hover {
   border: 5px solid rgb(240, 240, 40);
   color: black;
   text-shadow: 1px 1px 6px rgb(240, 240, 40);
-  /* TOP */
   top: calc(var(--spacing) * 3);
 }
 
