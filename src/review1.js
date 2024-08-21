@@ -41,7 +41,7 @@ gsap.from("#BOX__REVIEW__3", {
 // ^ CARDS
 gsap.registerPlugin(ScrollTrigger)
 gsap.to(".card", {
-    y: "-100",
+    y: "-120",
     stagger: 0.5,
     scrollTrigger: {
         trigger: ".card__container",
