@@ -1,5 +1,7 @@
 body {
   overflow: auto;
+  padding: 0;
+  margin: 0;
 }
 #container {
   width: 100%;
@@ -190,7 +192,7 @@ body {
 #page1__REVIEW {
   background-color: black;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -198,7 +200,9 @@ body {
 #page2__REVIEW {
   background-color: #2b2b2b;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  padding: 0;
+  overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
