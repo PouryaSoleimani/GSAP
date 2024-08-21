@@ -1,6 +1,6 @@
 //* GSAP REVIEW 1
 gsap.registerPlugin(ScrollTrigger)
-// & BOX 1
+// & PINK BOX 1
 gsap.from("#BOX__REVIEW__1", {
     duration: 5,
     rotate: "-360",
