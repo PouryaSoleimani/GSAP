@@ -48,8 +48,7 @@ gsap.to('.card', {
     yPercent: -100,
     stagger: 0.5,
     scrollTrigger: {
-        scroller: ".card__container",
-        trigger: "body",
-        start : "top top" ,
+        trigger: ".card__container",
+        start: "top top",
     }
 })
