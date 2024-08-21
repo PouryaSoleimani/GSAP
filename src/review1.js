@@ -42,7 +42,7 @@ gsap.from("#BOX__REVIEW__3", {
 gsap.registerPlugin(ScrollTrigger)
 
 
-gsap.set('.card', { position: "absolute" })
+// gsap.set('.card', { position: "absolute" })
 
 gsap.to('.card', {
     yPercent: -100,
