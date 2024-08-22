@@ -49,7 +49,7 @@ gsap.to(".card", {
         scroller: "body",
         endTrigger: 'section',
         start: "top top",
-        end: "+=2200",
+        end: "+=2500",
         scrub: 1,
         pin: true,
         anticipatePin: 1,
