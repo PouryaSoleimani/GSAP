@@ -42,16 +42,17 @@ gsap.from("#BOX__REVIEW__3", {
 gsap.registerPlugin(ScrollTrigger)
 gsap.to(".card", {
     y: "-120",
+    backgroundColor: "limegreen",
     stagger: 0.5,
     scrollTrigger: {
         trigger: ".card__container",
         scroller: "body",
         endTrigger: 'section',
         start: "top top",
-        end: "+=1000",
+        end: "+=2200",
         scrub: 1,
         pin: true,
         anticipatePin: 1,
-        fastScrollEnd: 3000
+        fastScrollEnd: true,
     }
 }) 
